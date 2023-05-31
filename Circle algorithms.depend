@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1683471659 source:d:\andrew\fcai\level 3\2nd semester\computer graphics\circle\circle algorithms\main.cpp
+	<tchar.h>
+	<windows.h>
+	<cmath>
+
+1683471396 d:\andrew\fcai\level 3\2nd semester\computer graphics\circle\circle algorithms\directcircle.cpp
+	<iostream>
+
+1683489058 source:d:\andrew\fcai\level 3\2nd semester\computer graphics\circle\circle algorithms\directcircle.cpp
+
+1683492597 source:c:\users\moaya\downloads\circle algorithms\main.cpp
+	<tchar.h>
+	<windows.h>
+	<cmath>
+	"CircleAlgorithm.cpp"
+
+1683492404 c:\users\moaya\downloads\circle algorithms\circlealgo.cpp
+
+1683492523 source:c:\users\moaya\downloads\circle algorithms\circlealgo.cpp
+
+1683492522 c:\users\moaya\downloads\circle algorithms\circlealgorithm.cpp
+
+1683578539 source:d:\andrew\fcai\level 3\2nd semester\computer graphics\circle algorithms\main.cpp
+	<tchar.h>
+	<windows.h>
+	<cmath>
+
