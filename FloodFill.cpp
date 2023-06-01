@@ -1,6 +1,7 @@
 
 void recursionFloodFill(HDC hdc, int x, int y, COLORREF bc, COLORREF fc)
 {
+    cout<<"Flood Filling from Point: " << x << " " << y << endl;
     COLORREF c=GetPixel(hdc, x, y);
     if (c==bc || c==fc) return;
     SetPixel(hdc, x, y, fc);
@@ -10,19 +11,9 @@ void recursionFloodFill(HDC hdc, int x, int y, COLORREF bc, COLORREF fc)
     recursionFloodFill(hdc, x, y+1, bc, fc);
 }
 
-class Point{
-    public:
-        int x , y ;
-
-    Point(int x = 0 , int y = 0 )
-    {
-        this->x = x;
-        this-> y = y;
-    }
-};
-
 void non_recFloodFill(HDC hdc, int x, int y, COLORREF bc, COLORREF fc)
 {
+    cout<<"Flood Filling from Point: " << x << " " << y << endl;
     stack<Point> s;
     s.push(Point(x,y));
     while(!s.empty())
